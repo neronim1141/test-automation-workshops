@@ -31,29 +31,29 @@ Uruchom `ng e2e` aby wykonać testy end to end z wykorzystaniem [Protractor](htt
 Kod testów e2e znajduje się w `/e2e/src/app.e2e-spec.ts`
 
 ## Zadanie 1 - setup
-- [ ] Stwórz forka repozytorium
-- [ ] Sklonuj sforkowane repozytorium (pracujemy na swoich repozytoriach)
-- [ ] Uruchom aplikację lokalnie
+- [X] Stwórz forka repozytorium
+- [X] Sklonuj sforkowane repozytorium (pracujemy na swoich repozytoriach)
+- [X] Uruchom aplikację lokalnie
 
 ## Zadanie 2 - naprawa testów
-- [ ] Uruchom linter
-- [ ] Napraw wszystkie błędy lintera (plik `/src/app/app.component.ts` )
-- [ ] Uruchom testy jednostkowe
-- [ ] Napraw testy jednostkowe
-- [ ] Uruchom testy End-to-End
-- [ ] Napraw test End-to-End
+- [X] Uruchom linter
+- [X] Napraw wszystkie błędy lintera (plik `/src/app/app.component.ts` )
+- [X] Uruchom testy jednostkowe
+- [X] Napraw testy jednostkowe
+- [X] Uruchom testy End-to-End
+- [X] Napraw test End-to-End
 
 ## Zadanie 3 - rozszerzenie unit testów
-- [ ] Uruchom testy jednostkowe z flagą --code-coverage
-- [ ] Zweryfikuj raport html pokrycia kodu w pliku .coverage\pesel\index.html
+- [X] Uruchom testy jednostkowe z flagą --code-coverage
+- [X] Zweryfikuj raport html pokrycia kodu w pliku .coverage\pesel\index.html
 dopisz przypadki testowe, które zwiększa pokrycie - zignoruj przypadki dla funkcji onSubmit()
 
 ## Zadanie 4 - Konfiguracja pipeline'u CI
-- [ ] Zaloguj się w [TravisCI](https://travis-ci.org/) z wykorzystaniem swojego GithubID
-- [ ] Jeśli już masz konto, zastosuj "sync account"
-- [ ] Uruchom CI dla repozytorium PESEL
-- [ ] Utwórz nowy plik .travis.yml
-- [ ] W pliku dodaj wstępną konfigurację CI
+- [X] Zaloguj się w [TravisCI](https://travis-ci.org/) z wykorzystaniem swojego GithubID
+- [x] Jeśli już masz konto, zastosuj "sync account"
+- [x] Uruchom CI dla repozytorium PESEL
+- [x] Utwórz nowy plik .travis.yml
+- [x] W pliku dodaj wstępną konfigurację CI
 
 ~~~
 language: node_js
