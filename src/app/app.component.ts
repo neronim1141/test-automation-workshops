@@ -94,14 +94,15 @@ export class AppComponent {
   }
 
   verifyDate(y: number, m: number, d: number) {
+    if (m > 12) return false;
     const dt = new Date(y, m - 1, d);
     return dt.getDate() === d &&
-      dt.getMonth() === m - 1 &&
+      dt.getMonth() === (m - 1) &&
       dt.getFullYear() === y;
   }
 
   getMonth(pesel: Array<number>) {
-    return (pesel[2] % 2) * 10 + pesel[3];
+    return pesel[2] * 10 + pesel[3];
   }
 
   getDay(pesel: Array<number>) {

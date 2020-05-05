@@ -92,14 +92,14 @@ deploy:
 - [ ] Wejdź w ustawienia swojego repozytorium, włącz GitHub Pages (wybierz branch gh-pages)
 
  ## Zadanie 6 - Udowodnienie, że całość działa
-- [ ] W swoim repozytorium stwórz dodatkowy branch `valid`
-- [ ] Wprowadź nieistotną zmianę na branchu `valid`
-- [ ] `git commit` oraz `git push`
-- [ ] stwórz Pull Request z `valid` do `master`
-- [ ] W swoim repozytorium stwórz dodatkowy branch `invalid`
-- [ ] Wprowadź na branchu `invalid` zmianę, która spowoduje, że któryś z testów nie przejdzie u
-- [ ] `git commit` oraz `git push`
-- [ ] stwórz Pull Request z `invalid` do `master`
+- [X] W swoim repozytorium stwórz dodatkowy branch `valid`
+- [X] Wprowadź nieistotną zmianę na branchu `valid`
+- [X] `git commit` oraz `git push`
+- [X] stwórz Pull Request z `valid` do `master`
+- [X] W swoim repozytorium stwórz dodatkowy branch `invalid`
+- [X] Wprowadź na branchu `invalid` zmianę, która spowoduje, że któryś z testów nie przejdzie u
+- [X] `git commit` oraz `git push`
+- [X] stwórz Pull Request z `invalid` do `master`
 
  ## Zadanie *
 - [ ] Co najmniej 1 rodzaj nieprawidłowego numeru PESEL jest oznaczany przez walidator jako prawidłowy. Jesteś w stanie go znaleźć?
