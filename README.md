@@ -71,11 +71,11 @@ before_script:
 script:
 - ng build --prod --base-href https://bamanczak.github.io/pesel/
 ~~~
-- [ ] `git commit` oraz `git push` - sprawdź czy Travis uruchomił Build
-- [ ] rozszerz konfigurację CI o linter oraz testy jednostkowe (Uwaga: nie dodawaj na razie testów E2E, tymi zajmiemy się na następnych zajęciach), sprawdź czy wszystko działa na serwerze CI
+- [X] `git commit` oraz `git push` - sprawdź czy Travis uruchomił Build
+- [X] rozszerz konfigurację CI o linter oraz testy jednostkowe (Uwaga: nie dodawaj na razie testów E2E, tymi zajmiemy się na następnych zajęciach), sprawdź czy wszystko działa na serwerze CI
 
 ## Zadanie 5 - Konfiguracja deploymentu
-- [ ] w pliku z konfiguracją travisa dodaj
+- [X] w pliku z konfiguracją travisa dodaj
 
 ~~~
 deploy:
