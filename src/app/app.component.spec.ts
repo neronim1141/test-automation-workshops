@@ -75,7 +75,7 @@ describe('AppComponent', () => {
 
     component.isValidPesel('03890767246');
     component.getDate(component.peselArray);
-    expect(component.year).toBe(1903);
+    expect(component.year).toBe(1803);
   });
 
 
