@@ -88,7 +88,7 @@ deploy:
 ~~~
 - [] [Wygeneruj Token dla Githuba](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
 - [ ] Dodaj token jako zmienną środowiskową w konfiguracji Builda w travisie: otwórz projekt w Travisie, kliknij prawym przyciskiem na "More options: Settings". Znajdź sekcję "Environment Variables", dodaj tam wygenerowany przed chwilą token z nazwą GITHUB_TOKEN (lub inną, zmień wtedy konfigurację .travis.yml)
-- [ ] `git commit` oraz `git push` - sprawdź czy Travis uruchomił Build
+- [X] `git commit` oraz `git push` - sprawdź czy Travis uruchomił Build
 - [ ] Wejdź w ustawienia swojego repozytorium, włącz GitHub Pages (wybierz branch gh-pages)
 
  ## Zadanie 6 - Udowodnienie, że całość działa
