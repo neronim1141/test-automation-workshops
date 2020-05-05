@@ -37,7 +37,7 @@ describe('AppComponent', () => {
 
   it('should reject PESEL numbers of invalid type', () => {
     expect(component.isValidPesel('')).toBe(false);
-    expect(component.isValidPesel(1)).toBe(false);
+    expect(component.isValidPesel(2)).toBe(false);
     expect(component.isValidPesel(true)).toBe(false);
     expect(component.isValidPesel(null)).toBe(false);
   });
