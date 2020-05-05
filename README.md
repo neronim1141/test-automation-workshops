@@ -89,13 +89,13 @@ deploy:
 - [X] [Wygeneruj Token dla Githuba](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
 - [X] Dodaj token jako zmienną środowiskową w konfiguracji Builda w travisie: otwórz projekt w Travisie, kliknij prawym przyciskiem na "More options: Settings". Znajdź sekcję "Environment Variables", dodaj tam wygenerowany przed chwilą token z nazwą GITHUB_TOKEN (lub inną, zmień wtedy konfigurację .travis.yml)
 - [X] `git commit` oraz `git push` - sprawdź czy Travis uruchomił Build
-- [ ] Wejdź w ustawienia swojego repozytorium, włącz GitHub Pages (wybierz branch gh-pages)
+- [X] Wejdź w ustawienia swojego repozytorium, włącz GitHub Pages (wybierz branch gh-pages)
 
  ## Zadanie 6 - Udowodnienie, że całość działa
-- [ ] W swoim repozytorium stwórz dodatkowy branch `valid`
-- [ ] Wprowadź nieistotną zmianę na branchu `valid`
-- [ ] `git commit` oraz `git push`
-- [ ] stwórz Pull Request z `valid` do `master`
+- [X] W swoim repozytorium stwórz dodatkowy branch `valid`
+- [X] Wprowadź nieistotną zmianę na branchu `valid`
+- [X] `git commit` oraz `git push`
+- [X] stwórz Pull Request z `valid` do `master`
 - [ ] W swoim repozytorium stwórz dodatkowy branch `invalid`
 - [ ] Wprowadź na branchu `invalid` zmianę, która spowoduje, że któryś z testów nie przejdzie u
 - [ ] `git commit` oraz `git push`
